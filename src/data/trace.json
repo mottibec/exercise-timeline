@@ -1,0 +1,180 @@
+{
+    "id": "02478d6b450860514d020c65b8fbbef4",
+    "spans": [
+        {
+            "traceId": "02478d6b450860514d020c65b8fbbef4",
+            "spanId": "52b71220ad0eecd6",
+            "parentSpanId": "6fddbf49faa60663",
+            "operationName": "HTTP GET",
+            "links": [],
+            "events": [],
+            "startTime": "2023-07-17T07:52:11.195000064Z",
+            "duration": 2475776,
+            "serviceName": "aspecto-account"
+        },
+        {
+            "traceId": "02478d6b450860514d020c65b8fbbef4",
+            "spanId": "3df54c45d99b2be5",
+            "parentSpanId": "52b71220ad0eecd6",
+            "operationName": "fetch workspaceId from cache",
+            "links": [],
+            "events": [],
+            "startTime": "2023-07-17T07:52:11.196999936Z",
+            "duration": 64768,
+            "serviceName": "aspecto-account"
+        },
+        {
+            "traceId": "02478d6b450860514d020c65b8fbbef4",
+            "spanId": "864254265a346a4d",
+            "parentSpanId": "3aaf24ace88ee51c",
+            "operationName": "mongoose.blocked-organizations.findOne",
+            "links": [],
+            "events": [],
+            "startTime": "2023-07-17T07:52:11.2Z",
+            "duration": 45280256,
+            "serviceName": "data-usage"
+        },
+        {
+            "traceId": "02478d6b450860514d020c65b8fbbef4",
+            "spanId": "c294ff2092ca9c07",
+            "parentSpanId": "3aaf24ace88ee51c",
+            "operationName": "mongoose.daily-usage.aggregate",
+            "links": [],
+            "events": [],
+            "startTime": "2023-07-17T07:52:11.2Z",
+            "duration": 50192640,
+            "serviceName": "data-usage"
+        },
+        {
+            "traceId": "02478d6b450860514d020c65b8fbbef4",
+            "spanId": "4522862b3f1c741a",
+            "operationName": "HTTP GET",
+            "links": [],
+            "events":[],
+            "startTime": "2023-07-17T07:52:10.941Z",
+            "duration": 276000000,
+            "serviceName": "aspecto-app"
+        },
+        {
+            "traceId": "02478d6b450860514d020c65b8fbbef4",
+            "spanId": "88c6832888db4562",
+            "parentSpanId": "52b71220ad0eecd6",
+            "operationName": "get LRU cache",
+            "links": [],
+            "events": [],
+            "startTime": "2023-07-17T07:52:11.196999936Z",
+            "duration": 53504,
+            "serviceName": "aspecto-account"
+        },
+        {
+            "traceId": "02478d6b450860514d020c65b8fbbef4",
+            "spanId": "6ff90b7ba4ddf247",
+            "parentSpanId": "3aaf24ace88ee51c",
+            "operationName": "GET /api/v1/usage",
+            "links": [],
+            "events": [],
+            "startTime": "2023-07-17T07:52:11.191000064Z",
+            "duration": 73980672,
+            "serviceName": "data-usage"
+        },
+        {
+            "traceId": "02478d6b450860514d020c65b8fbbef4",
+            "spanId": "6fddbf49faa60663",
+            "parentSpanId": "3aaf24ace88ee51c",
+            "operationName": "HTTP GET",
+            "links": [],
+            "events": [],
+            "startTime": "2023-07-17T07:52:11.192Z",
+            "duration": 6231552,
+            "serviceName": "data-usage"
+        },
+        {
+            "traceId": "02478d6b450860514d020c65b8fbbef4",
+            "spanId": "3aaf24ace88ee51c",
+            "parentSpanId": "4522862b3f1c741a",
+            "operationName": "HTTP GET",
+            "links": [],
+            "events": [],
+            "startTime": "2023-07-17T07:52:11.191000064Z",
+            "duration": 74757632,
+            "serviceName": "data-usage"
+        },
+        {
+            "traceId": "02478d6b450860514d020c65b8fbbef4",
+            "spanId": "9eb6d70b4ee28f82",
+            "parentSpanId": "3aaf24ace88ee51c",
+            "operationName": "mongoose.organization-plan.find",
+            "links": [],
+            "events": [],
+            "startTime": "2023-07-17T07:52:11.2Z",
+            "duration": 25238784,
+            "serviceName": "data-usage"
+        },
+        {
+            "traceId": "02478d6b450860514d020c65b8fbbef4",
+            "spanId": "dbe2ae17e4704ae2",
+            "parentSpanId": "3aaf24ace88ee51c",
+            "operationName": "mongoose.daily-usage.aggregate",
+            "links": [],
+            "events": [],
+            "startTime": "2023-07-17T07:52:11.2Z",
+            "duration": 55167232,
+            "serviceName": "data-usage"
+        },
+        {
+            "traceId": "02478d6b450860514d020c65b8fbbef4",
+            "spanId": "26aa09b21c2de12f",
+            "parentSpanId": "52b71220ad0eecd6",
+            "operationName": "GET /user",
+            "links": [],
+            "events": [],
+            "startTime": "2023-07-17T07:52:11.195000064Z",
+            "duration": 2105856,
+            "serviceName": "aspecto-account"
+        },
+        {
+            "traceId": "02478d6b450860514d020c65b8fbbef4",
+            "spanId": "0998781316cae32f",
+            "parentSpanId": "52b71220ad0eecd6",
+            "operationName": "fetch workspaceId from cache",
+            "links": [],
+            "events": [],
+            "startTime": "2023-07-17T07:52:11.196999936Z",
+            "duration": 46080,
+            "serviceName": "aspecto-account"
+        },
+        {
+            "traceId": "02478d6b450860514d020c65b8fbbef4",
+            "spanId": "0a5b26b4115b7d13",
+            "parentSpanId": "3aaf24ace88ee51c",
+            "operationName": "mongoose.hourly-usage.aggregate",
+            "links": [],
+            "events": [],
+            "startTime": "2023-07-17T07:52:11.2Z",
+            "duration": 25673984,
+            "serviceName": "data-usage"
+        },
+        {
+            "traceId": "02478d6b450860514d020c65b8fbbef4",
+            "spanId": "7f0a6d46eb47419c",
+            "parentSpanId": "3aaf24ace88ee51c",
+            "operationName": "mongoose.organization-plan.findOne",
+            "links": [],
+            "events": [],
+            "startTime": "2023-07-17T07:52:11.2Z",
+            "duration": 43707648,
+            "serviceName": "data-usage"
+        },
+        {
+            "traceId": "02478d6b450860514d020c65b8fbbef4",
+            "spanId": "a84c16783eae42fb",
+            "parentSpanId": "3aaf24ace88ee51c",
+            "operationName": "mongoose.hourly-usage.aggregate",
+            "links": [],
+            "events": [],
+            "startTime": "2023-07-17T07:52:11.2Z",
+            "duration": 64165376,
+            "serviceName": "data-usage"
+        }
+    ]
+  }
